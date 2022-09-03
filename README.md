@@ -42,9 +42,11 @@ run `npm install`
   ```
 
 - Install eslint:
+
   1. Run `npm install --save-dev eslint-config-prettier`.
   2. Here you can run `npm install eslint -g` & `eslint --init` to use a default config like airbnb (one of the best).
   3. Add prettier to its rules
+
   ```
   {
   "extends": [
@@ -53,3 +55,7 @@ run `npm install`
     ]
   }
   ```
+
+  ## Thoughts and after math
+
+  Please review all and check the configurations, nothing is set in stone. This is a basic example.
